@@ -1,0 +1,109 @@
+body{
+	height: 1900px
+	padding-top:35px;
+}
+.logo{
+	float: left;
+
+}
+.navigation {
+	float: left;
+}
+.clear {
+	clear: left;
+}
+.nav-li{
+	float: left;
+    margin: 10px 0px 0 50px
+}
+.nav-a{
+	color: #181C28;
+ }
+.logo2{ 
+	right: 50px;
+	bottom: 50px;
+ }
+.nav-ul::after { 
+	content: ''
+	clear:left;
+	display: block;
+
+}
+.header-wraper{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%
+}
+.bg-img {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    background-size: contain;
+    margin-top: 120px;
+    position: relative;
+}
+.img-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 20px;
+    color: #fff;
+}
+.img-text2 {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 40px;
+    color: #fff;
+}
+.satauri {
+    color: #FF7A00;
+    margin: 0 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.wraper1 {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}   
+.box  {
+    float: left;
+    width: 470px;
+    margin: 50px 60px;
+}
+.img {
+    width: 470px;
+}
+.satauri1 {
+    font-size: 30px;
+    margin: 15px 0;
+    font-family: "BPG Square Banner Caps 2013", sans-serif;
+}
+.teqsti1 {
+    margin: 15px 0;
+}
+.box1 {
+    float: left;
+    width: 470px;
+    margin: 50px 50px;
+}
+.box::after {
+    content: url(../img/READ\ MORE.png);
+}
+.box1::after {
+    content: url(../img/READ\ MORE.png);
+}
+.button {
+    margin: 100px 570px;
+    background-color: #FF7A00;
+    color: white;
+    font-size: 15px;
+    border-style: hidden;
+    block-size: 60px;
+}
+.banner {
+    width: 100%;
+}
